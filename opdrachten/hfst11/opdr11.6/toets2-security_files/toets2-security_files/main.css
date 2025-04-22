@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size:16px;
+	color:#000;
+	background-color:#fff;
+	padding:0;
+	margin:0;
+}
+#alles {
+	min-width:1200px;
+}
+#kop {
+	width: 98%;
+	background-color:#d9e3f0;
+	padding:0 1%;
+	margin:0 0 60px 0;
+}
+#menu ul, #menulinks ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+#menu ul li {
+	float:left;
+	color:#333;
+}
+#menu li a {
+	display:block;
+	color:#333;
+	text-align:center;
+	padding:10px 15px;
+	text-decoration:none;
+	cursor:pointer;
+	
+}
+#menu li a:hover {
+	color:#F90;
+}
+#onder {
+	width:100%;
+	min-height:400px;
+}
+#menulinks {
+	float:left;
+	width: 20%;
+	max-width:200px;
+	margin-left:10px;
+}
+#menulinks ul li {
+	width: 90%;
+	max-width:120px;
+	border: 1px solid silver;
+	padding: 5px 10px;
+	margin:0 5px;
+	background-color:#e4ebf4;
+}
+#menulinks ul li:hover {
+	background-color:#d9e3f0;
+	cursor:pointer;
+}
+#menulinks a {
+	text-decoration:none;
+	color:#333;
+	display:block;
+	width:100%;
+}
+#main {
+	float: left;
+	width: 62%;
+}
+.uitleg {
+	background-color:#f0f0f0;
+	padding:5px;
+	margin:10px 0;
+}
+p {
+	margin:0;
+}
+#rechts {
+	float:right;
+	width:20%;
+}
+#menurechts {
+	font-size:10pt;
+	color:#333;
+	padding:0 0 0 10px;
+	border-left:1px solid silver;	
+}
+#footer {
+	margin:20px;
+	padding:10px 50px;
+	text-align:center;
+	color:#333;
+	border-top:1px solid silver;
+
+}
+.ikoon {
+	float:left;
+	margin-right:8px;
+	cursor:pointer;
+	width:17px;
+}
+#main td {
+	border-top: 1px solid silver;
+}
+.onderrand {
+	border-bottom: 1px solid silver;
+}
+#main th {
+	text-align:left;
+	background-color:#eab956;
+	padding:3px 5px;
+}
+#main tr:nth-child(even) {background-color: #fff}
+#main tr:nth-child(odd) {background-color: #f0f0f8}
+.groen {
+	font-weight:bold;
+	color:#090;
+	margin-right:5px;
+}
+.rood {
+	font-weight:bold;
+	color:#900;
+	margin-right:5px;
+}
+#help {
+	position:absolute;
+	z-index:1000;
+	left:0;
+	top:0;
+	width:200px;
+	height:auto;
+	min-height:200px;
+	margin:0;
+	padding:0 20px 10px 20px;
+	background-color:#FFF;
+	border:2px solid silver;
+	box-shadow:5px 5px 5px #666;
+	display:none;
+}
+.round{
+  	border-radius: 0 20px 20px 20px;
+	-webkit-border-radius: 0 20px 20px 20px;
+	-moz-border-radius: 0 20px 20px 20px;
+
+}
+.aantal {
+	padding:0px;
+	float:right;
+	display:block;
+}
+table.calendar		{ border-left:1px solid #999;width:90% }
+
+tr.calendar-row	{  }
+td.calendar-day	{ min-height:10px; font-size:11px; position:relative; } * html div.calendar-day { min-height:10px; }
+td.calendar-day:hover	{ background:#fc0; }
+td.calendar-day-np	{ background-color:#f0f0f0; min-height:10px; } * html div.calendar-day-np { min-height:10px; }
+td.calendar-day-head { background:#e7df9d; font-weight:bold; text-align:center; min-width:20px; padding:2px 0; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number		{ background:#e0e0e0; padding:0px; color:#000; font-weight:bold; margin:0; width:100%; text-align:center; }
+div.day-number-feest		{ background:#f08080; padding:0px; color:#000; font-weight:bold; margin:0; width:100%; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np { min-width:10px; padding:2px; border-bottom:1px solid #999; border-right:1px solid #999; }
+tr.calendar-row td:nth-child(2), tr.calendar-row td:nth-child(2) div,
+tr.calendar-row td:last-child, tr.calendar-row td:last-child div {background-color:#fff;color:#999 }
+tr.calendar-row td:first-child {background-color:#e7df9d; color:#333; font-weight:bold}

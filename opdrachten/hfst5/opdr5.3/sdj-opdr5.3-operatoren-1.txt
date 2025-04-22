@@ -1,0 +1,14 @@
+a) (5 + 7) / 2 				= 6		+
+b) 4 + 4 / 2 + 1			= 7		/
+c) 2 * 3 / 2				= 3		*
+d) 2 ** 3 - 2				= 6		**
+e) 6 / 3 + 2 * 2			= 6		+
+f) 4 * 3 + (2 - 4)			= 10		+
+g) (2 + 2) - 2 - 9			= -7		-
+
+h) 3 <= 4 or 4 == 6			= True		or
+i) 4 != 4 and 5 != 6			= False		and
+j) not ( 4 < 6 and 3 > 4)		= True		not
+k) 5 > 6 and 6 <= 7 or 7 < 9		= True		or
+l) 5 > 6 and ( 6 <= 7 and 7 < 9 )	= False		and
+m) 4 + 2 <= 5 and 2 / 2 != 0		= False		and
